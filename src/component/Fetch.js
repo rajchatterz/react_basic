@@ -12,13 +12,7 @@ function Fetch (){
         fetchWeather()
     })
     // console.log(value)
-    const mapdata = ()=>{
-        let mapArray = value.map((e)=>{
-            e.id+=1
-
-        })
-        return mapArray
-    }
+    
     mapdata()
     return (
         <div className="App">
