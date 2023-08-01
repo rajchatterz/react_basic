@@ -17,11 +17,19 @@ function MapFilter(){
 
 // filter
 
-const mapData = ()=>{
-    let filtter = data.filter((e)=>{
-        let title=e
-        console.log(title.title==="harum ad aperiam quis")
+// const mapData = ()=>{
+//     let filtter = data.filter((e)=>{
+//         let title=e
+//         console.log(title.title==="harum ad aperiam quis")
+//     })
+// }
+
+const mapData=()=>{
+    let square = number.filter((e)=>{
+        return e>5
     })
+    // console.log(square)
+    return square
 }
     
     return (

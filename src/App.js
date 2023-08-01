@@ -1,8 +1,8 @@
 
 import { useEffect, useState } from 'react';
 import './App.css';
-// import Fetch from './component/Fetch.js';
-import MapFilter from './component/MapFilter';
+import Increment from './component/Increment';
+
 
 function App() {
   return (
@@ -10,7 +10,8 @@ function App() {
       <div className="App">
           <h1>List of project</h1>
           {/* <Fetch/> */}
-          <MapFilter/>
+          {/* <MapFilter/> */}
+          <Increment/>
           <h1>hey</h1>
           <p></p>
         </div>
